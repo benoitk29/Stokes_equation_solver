@@ -3,7 +3,7 @@
 A rigorous MATLAB implementation of a P2-P1 (Taylor-Hood) Finite Element Method (FEM) solver designed to simulate incompressible, steady, viscous fluid flows at low Reynolds numbers. The solver handles the full pipeline from mesh generation via `gmsh` to the assembly of global matrices and numerical validation.
 
 ## 📄 Project Documentation
-* **[Read the Full Scientific Report (PDF)](stokes_report.pdf)** *(Note: The report and code comments are written in French, but the variable naming and matrix structures follow standard FEM mathematical conventions).*
+* **[Read the Full Scientific Report (PDF)](TP2_Stokes.pdf)** *(Note: The report and code comments are written in French, but the variable naming and matrix structures follow standard FEM mathematical conventions).*
 
 ## Mathematical & Technical Framework
 * **Governing Equations:** Solves the simplified Navier-Stokes equations neglecting the convection term: `-νΔu + ∇p = f` and `div(u) = 0`.
